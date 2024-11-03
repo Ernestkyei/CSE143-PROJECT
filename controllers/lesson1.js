@@ -1,20 +1,20 @@
-const sarahRoute = (req, res) =>{
+const sarahRoute1 = (req, res) =>{
     res.send('Sarah seen. hope you are good');
 }
 
 
-const emilyRoute = (req, res) =>{
+const emilyRoute1 = (req, res) =>{
     res.send('Hello How are you doing...')
 }
 
 
-const hannaRoute = (req, res) =>{
+const hannaRoute1 = (req, res) =>{
     res.send('Hello How are you doing...')
 }
 
 module.exports = {
-    emilyRoute,
-    hannaRoute,
-    sarahRoute
+    emilyRoute1,
+    hannaRoute1,
+    sarahRoute1
 
 }
