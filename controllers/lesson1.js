@@ -4,12 +4,12 @@ const ericRoute = (req, res) =>{
 
 
 const emilyRoute = (req, res) =>{
-    res.send('Hello How are you doing...')
+    res.send('Hello How are you doing... Emily')
 }
 
 
 const hannaRoute = (req, res) =>{
-    res.send('Hello How are you doing...')
+    res.send('Hello How are you doing... Hannah')
 }
 
 module.exports = {
